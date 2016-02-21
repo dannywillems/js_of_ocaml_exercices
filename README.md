@@ -9,7 +9,7 @@ From [Ocsigen website](http://ocsigen.org/js_of_ocaml):
 Js_of_ocaml is a compiler of OCaml bytecode to Javascript. It makes it possible
 to run Ocaml programs in a Web browser.
 ```
-and from the ]Wikipedia page](https://en.wikipedia.org/wiki/Ocsigen) describing
+and from the [Wikipedia page](https://en.wikipedia.org/wiki/Ocsigen) describing
 the Ocsigen project:
 ```
 A Javascript compilator from OCaml to Javascript named js_of_ocaml. It makes it
