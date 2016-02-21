@@ -21,7 +21,7 @@ The *document* element of an HTML page is represented by a class type named
 
 You can get it by using the function *document* in the *Dom_html* module:
 
-```
+```OCaml
 let doc = Dom_html.document
 ```
 
@@ -32,7 +32,7 @@ See the full documentation
 
 The *title* method takes a *Js.string Js.t* value and allows us to modify the page title by using
 
-```
+```OCaml
 doc##title <- Js.string "Hello world from the ml file"
 ```
 
