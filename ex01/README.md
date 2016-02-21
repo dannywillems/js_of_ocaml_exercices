@@ -2,7 +2,7 @@
 
 Modify the title of an HTML page.
 
-## How data are represented ?
+## How are javascript objects, types and the DOM represented ?
 
 The ocsigen page explains how they implemented it, read first [this
 page](https://ocsigen.org/js_of_ocaml/2.7/manual/library).
