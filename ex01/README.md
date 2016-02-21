@@ -38,8 +38,13 @@ doc##title <- Js.string "Hello world from the ml file"
 
 # Try it
 
-An *index.html* is given with a ml files into the ml directory. Run
+* We provide an index.html in the src directory and ml file containing the code.
+* Use
 ```
 make
 ```
-and run the index.html file into a web browser: the page title has changed !
+to compile the ml file into a javascript file.
+* Run index.html in your web browser.
+
+You can also try your own code in a toplevel developed by the Ocsigen team.
+Available [here](http://ocsigen.org/js_of_ocaml/2.7/files/toplevel/).
