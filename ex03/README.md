@@ -1,4 +1,4 @@
-# js_of_ocaml exercices: Ex02
+# js_of_ocaml exercices: Ex03
 
 Show a confirm box and get response.
 
