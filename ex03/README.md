@@ -23,7 +23,7 @@ we use the *Js.to_bool* function.
 
 ## Show a confirm box
 
-We begin by define some variables:
+We begin by defining some variables:
 ```OCaml
 let question =
   Js.string "Do you find this tutorial useful ?"
