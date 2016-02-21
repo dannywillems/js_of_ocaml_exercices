@@ -20,8 +20,7 @@ option.
 We have
 
 ```
-ocamlfind ocamlc -package js_of_ocaml -package js_of_ocaml.syntax -syntax
-camlp4o -linkpkg [files.ml]
+ocamlfind ocamlc -package js_of_ocaml -package js_of_ocaml.syntax -syntax camlp4o -linkpkg [files.ml]
 ```
 where [files.ml] are your ocaml files.
 
