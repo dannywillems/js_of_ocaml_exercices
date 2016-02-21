@@ -1,4 +1,4 @@
-# js_of_ocaml exerices: Ex00
+# js_of_ocaml exercices: Ex00
 
 ## Prerequisites
 First, install js_of_ocaml with [OPAM](https://opam.ocaml.org/):
