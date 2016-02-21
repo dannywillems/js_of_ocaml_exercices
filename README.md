@@ -31,5 +31,5 @@ given in the same exercice where you learn how to compile ocaml into js.
 
 ## List of exercices
 
-* Ex00: compile your ml files into Javascript scripts.
-* Ex01: modify the title of a html page.
+* Ex00: Compile your ml files into Javascript scripts.
+* Ex01: Modify the title of an HTML page.
