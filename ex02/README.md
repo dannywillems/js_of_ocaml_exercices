@@ -15,12 +15,12 @@ In OCaml, it's represented in the **Dom_html** module and it's implemented as a
 ## Show an alert
 
 We can access to the basic *alert* javascript method by using
-```
+```OCaml
 Dom_html.window##alert
 ```
 
 This method takes a *Js.string Js.t* value. We can call it by using
-```
+```OCaml
 Dom_html.window##alert (Js.string "Hello world")
 ```
 
@@ -30,6 +30,7 @@ It results an alert box with *Hello world*.
 
 * We provide an index.html in the src directory and ml file containing the code.
 * Use
+
 ```
 make
 ```
