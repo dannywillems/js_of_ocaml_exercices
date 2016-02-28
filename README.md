@@ -35,3 +35,4 @@ given in the same exercice where you learn how to compile ocaml into js.
 * [Ex01](https://github.com/dannywillems/js_of_ocaml_exercices/tree/master/ex01): Modify the title of an HTML page.
 * [Ex02](https://github.com/dannywillems/js_of_ocaml_exercices/tree/master/ex02): An alert box with *Hello world*.
 * [Ex03](https://github.com/dannywillems/js_of_ocaml_exercices/tree/master/ex03): Show a confirm box and get response.
+* [Ex04](https://github.com/dannywillems/js_of_ocaml_exercices/tree/master/ex04): Add dynamically html nodes such as paragraph or div.
