@@ -62,13 +62,13 @@ js_of_ocaml is only a compiler from OCaml to Javascript. It doesn't check if you
 respect the W3C standards. You must use
 [Eliom](http://ocsigen.org/eliom/5.0/manual/clientserver-html) to do that.
 
-For example, the following code compile
+For example, the following code compiles
 
 ```OCaml
 let doc = Dom_html.document in
 let p = Dom_html.createP doc in
 let link = Dom_html.createAnchor doc in (* 'a' tag *)
-Dom.appendChild a p
+Dom.appendChild link p (* add 'p' as a child of 'link' *)
 ```
 
 But it isn't allowed by the W3C standards because a block tag can be the child of an inline tag. Same with
