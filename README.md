@@ -36,3 +36,5 @@ given in the same exercice where you learn how to compile ocaml into js.
 * [Ex02](https://github.com/dannywillems/js_of_ocaml_exercices/tree/master/ex02): An alert box with *Hello world*.
 * [Ex03](https://github.com/dannywillems/js_of_ocaml_exercices/tree/master/ex03): Show a confirm box and get response.
 * [Ex04](https://github.com/dannywillems/js_of_ocaml_exercices/tree/master/ex04): Add dynamically html nodes such as paragraph or div.
+* [Ex05](https://github.com/dannywillems/js_of_ocaml_exercices/tree/master/ex05): Create the [Materialize Starter Template](http://materializecss.com/templates/starter-template/preview.html) in OCaml.
+* [Ex06](https://github.com/dannywillems/js_of_ocaml_exercices/tree/master/ex06): Event handler: execute code when page is loaded.
