@@ -98,7 +98,7 @@ Here the index.html file
 </html>
 ```
 
-and the e06.ml
+and the ex06.ml
 
 ```OCaml
 let doc = Dom_html.document
