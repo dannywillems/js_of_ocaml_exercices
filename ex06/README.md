@@ -41,7 +41,7 @@ Javascript.
 
 The method *onload* of the *window* global object can be accessed in OCaml with
 ```OCaml
-Dom_html.window##onload
+Dom_html.window##.onload
 ```
 
 This method has the signature
@@ -77,7 +77,7 @@ let onload _ =
 	Js._false
 
 let _ =
-	Dom_html.window##onload <- Dom.handler onload
+	Dom_html.window##.onload := Dom.handler onload
 ```
 
 ## An example
@@ -105,10 +105,10 @@ let doc = Dom_html.document
 
 let onload _ =
 	let h1 = Dom_html.createH1 doc in
-	h1##innerHTML <- (Js.string "The page has been loaded and I was added after")
-	Dom.appendChild doc##body h1
+	h1##.innerHTML := (Js.string "The page has been loaded and I was added after")
+	Dom.appendChild doc##.body h1
 
-let _ = Dom_html.window##onload <- Dom_html.handler onload
+let _ = Dom_html.window##.onload := Dom_html.handler onload
 ```
 
 ## Try it
