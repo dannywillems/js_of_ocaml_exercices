@@ -33,7 +33,7 @@ See the full documentation
 The *title* method takes a *Js.string Js.t* value and allows us to modify the page title by using
 
 ```OCaml
-doc##title <- Js.string "Hello world from the ml file"
+doc##.title := Js.string "Hello world from the ml file"
 ```
 
 # Try it
