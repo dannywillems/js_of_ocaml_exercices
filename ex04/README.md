@@ -24,7 +24,7 @@ You can create a paragraph and it to the body as a child by using
 ```OCaml
 let doc = Dom_html.document in
 let p1 = Dom_html.createP doc in
-Dom.appendChild doc##body p1
+Dom.appendChild doc##.body p1
 ```
 
 Each HTML element can be created with a function from the Dom_html module. For
@@ -46,9 +46,9 @@ For example:
 ```OCaml
 let doc = Dom_html.document in
 let p1 = Dom_html.createP doc in
-p1##id <- (Js.string "hello");
-p1##innerHTML <- (Js.string "Hello world");
-Dom.appendChild doc##body p1
+p1##.id := (Js.string "hello");
+p1##.innerHTML := (Js.string "Hello world");
+Dom.appendChild doc##.body p1
 ```
 
 See [the full
