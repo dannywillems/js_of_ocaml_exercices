@@ -8,6 +8,6 @@ and answer_no =
   comment with why you don't find it useful."
 in
 
-let result = (Dom_html.window)##confirm (question) in
-  (Dom_html.window)##alert (if Js.to_bool result then answer_yes else
-  answer_no)
+let result = Dom_html.window##(confirm question) in
+  Dom_html.window##(alert (if Js.to_bool result then answer_yes else
+  answer_no))

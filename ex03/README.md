@@ -39,9 +39,9 @@ in
 We will show a different message according to the user choice.
 
 ```OCaml
-let result = (Dom_html.window)##confirm (question) in
-  (Dom_html.window)##alert (if Js.to_bool result then answer_yes else
-  answer_no)
+let result = Dom_html.window##(confirm question) in
+  Dom_html.window##(alert (if Js.to_bool result then answer_yes else
+  answer_no))
 ```
 
 ## Try it
